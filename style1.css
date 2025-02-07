@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background-color: rgb(76, 95, 201);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center; 
+    align-content: center;
+    min-height: 100vh;
+    line-height: 30px;
+}
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 10);
+    height: 500px;
+    padding: 50px;
+    width: 350px;
+    text-align: center;
+    margin: 100px;
+    border-radius: 20px;
+    margin-left: 500px;
+    border: 2px solid rgba(0,0,78,.6);
+
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 40px;
+    border:.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.input-box input{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 0px 45px 5px 25px;
+}
+
+.wrapper .btn{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(51, 110, 219);
+    background-color: rgb(51, 110, 219);
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.wrapper .btn:hover{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 86, 221);
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.wrapper .btnfb{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 86, 221);
+    background-color: rgb(13, 86, 221);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+.account a{
+    text-decoration: none;
+}
+.wrapper .btnfb:hover{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 86, 221);
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    color: rgba(7, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+.wrapper .btngl:hover{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 86, 221);
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    color: rgba(7, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+.wrapper .btngl{
+    width: 103%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    color: rgba(0, 0, 0,0.9);
+    font-weight: bold;
+}
+
+
+.btns i{
+    position:absolute;
+    margin-top: 190px;
+    left:580px;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
+
+.wrapper .account{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.wrapper .lbl{
+    color: rgba(0, 0, 0, 0.7);
+   margin-top:40px;
+}
+
+.btn1 i{
+    position:absolute;
+    left: 570px;
+    font-size: 24px;
+    top: 69%;
+    color: white;
+}
+
+.btn1 .btnfb{
+    margin-bottom: 10px;
+}
+.btn2 i{
+    position:absolute;
+    left: 570px;
+    margin-top: 50px;
+    font-size: 24px;
+    top: 69%;
+    color: rgb(0, 0, 0);
+}
+
+hr.solid {
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+  }
