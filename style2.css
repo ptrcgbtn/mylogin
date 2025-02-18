@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(213, 224, 233);
+    
+}
+
+.navbar-brand{
+    margin-left: 90px;
+}
+.nav{
+    margin-right: 30px;
+}
+
+.nav-item a{
+    border: white;
+    border-radius: 50px;
+    margin: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    border: .5px solid rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), .1);
+    border-radius: 50px;
+    margin: 8px;
+    background-color: rgb(230, 226, 32);
+   
+}
+
+.container-fluid1{
+    width: 100%;
+    height: 90vh;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.container-fluid-home{
+    width: 100%;
+    height: 80vh;
+}
+
+.home img{
+    width:120px;
+    height:120px;
+
+}
+
+.home .container-fluid{
+    width: 100%;
+    height: 80vh;
+    margin: 15, 0, 0, 0;
+}
